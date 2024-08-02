@@ -24,4 +24,4 @@
 因此本人结合现有的工具与知识，创建了此项目（在写这段话时还不知道自己能不能跑得赢时间呢，至少希望能坚持下去吧）
 
 ### (时间)背景
-此项目创建时大概处于GPT4-o，Gemini 1.5 pro experiment，LLama 3.2，Claude 3.5这么一个“时代”
+顺带一提，此项目创建时大概处于GPT4-o，Gemini 1.5 pro experiment，LLama 3.2，Claude 3.5这么一个“时代”
