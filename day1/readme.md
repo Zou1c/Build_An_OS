@@ -37,3 +37,19 @@ http://hrb.osask.jp/tolset_h.zip
 
 ### Result
 ![alt text](pictures/image-4.png)
+
+## 实验2与实验3
+本质上与实验1相同，只不过编写二进制文件的过程交给了nask——
+用作者写的编译器nask（汇编器），将helloos.nas文件编译为helloos.img文件  
+
+### 执行
+分别确认helloos1和helloos2中xxx.bat文件的路径与文件名正确  
+
+1. 用类似汇编的语言编写helloos.nas
+2. 执行asm.bat——得到helloos.img
+3. 执行run.bat
+
+## 文件说明
+实验1——helloos0
+实验2——helloos1
+实验3——helloos2
