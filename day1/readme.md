@@ -17,7 +17,7 @@
 http://hrb.osask.jp/tolset_h.zip
 
 ### 第三步
-【编写执行脚本run.bat和install.bat】
+【编写执行脚本run.bat和install.bat】  
 ![alt text](pictures/image-2.png)  
 
 
@@ -27,7 +27,9 @@ http://hrb.osask.jp/tolset_h.zip
 
 ### 第四步
 【执行】  
-将helloos.img、run.bat、install.bat和tolset/z_new_w文件夹下!cons_9x.bat和!cons_nt.bat这两个文件，总共五个文件放到同一文件夹下  
+首先将helloos.img、run.bat、install.bat和tolset/z_new_w文件夹下!cons_9x.bat和!cons_nt.bat这两个文件，总共五个文件放到同一文件夹下  
+
+然后：  
 
 - (方法一)双击!cons_9x.bat或!cons_nt.bat打开命令行，输入run
 - (方法二)打开Windows命令行，移动到这五个文件共同的文件夹下，输入run
