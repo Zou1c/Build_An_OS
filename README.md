@@ -40,6 +40,7 @@ https://zixths-organization.gitbook.io/os_develop_record/
 - 本人用的是Windows 11操作系统
 - 文本编辑器主要用的notepad++和VSCode
 - 作者的工具包tolset_h也放在项目里了
+
 (我想Windows环境下应该都能兼容的)
 
 ### 实验启动方法
