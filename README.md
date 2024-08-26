@@ -44,7 +44,7 @@ https://zixths-organization.gitbook.io/os_develop_record/
 
 #### 模拟的(预期的、设定的)环境
 （正式的那个OS，一开始的几天用的16位寄存器的实验只是试一试而已）
-- Intel的i486架构——32位模式，用32位寄存器
+- Intel的i486架构，即486DX4-100MHz——32位模式，用32位寄存器——有缓存(之前的版本没有)
 - 
 
 
