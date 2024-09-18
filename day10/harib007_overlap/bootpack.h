@@ -145,3 +145,22 @@ struct MEMMAN
 	int frees, maxfrees, lostsize, losts;
 	struct FREEINFO free[MEMMAN_FREES];
 };
+
+/* picture overlap */
+#define MAX_SHEETS 256 
+
+struct SHEET { 
+	unsigned char *buf; 
+	int bxsize, bysize, //size
+		vx0, vy0,  //(x,y)
+		col_inv,  //color + invisible
+		height,  //sheet's height
+		flags;  //settings
+}; 
+
+struct SHTCTL {  // SHEET control
+	unsigned char *vram; 
+	int xsize, ysize, top; 
+	struct SHEET *sheets[MAX_SHEETS];  //write in(order) with 'sheets0'.height, 256 pointers
+	struct SHEET sheets0[MAX_SHEETS]; //sheet's info
+}; 

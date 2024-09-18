@@ -53,7 +53,7 @@ void HariMain(void)
 	memtotal = memtest(0x00400000, 0xbfffffff); 
 	memman_init(memman); 
 	memman_free(memman, 0x00001000, 0x0009e000); /* 620KB */ 
-	memman_free(memman, 0x00400000, memtotal - 0x00400000); 
+	memman_free(memman, 0x00400000, memtotal - 0x00400000); //3145728-4096=3068MB
 	sprintf(s, "memory %dMB free : %dKB", 
 			memtotal / (1024 * 1024), memman_total(memman) / 1024); 
 	putfonts8_asc(binfo->vram, binfo->scrnx, 0, 32, COL8_FFFFFF, s); 
