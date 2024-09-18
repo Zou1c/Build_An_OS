@@ -36,6 +36,9 @@ https://zixths-organization.gitbook.io/os_develop_record/
 >   
 > 我也因此在察觉到这点后，便不太知道每个project的readme里写些什么了，只能记录一些完成后感觉很重要的东西的，实验过程我还是决定放到gitbook里去了  
 > (顺便可能的话，多加一些注释，看看代码也不错)
+  
+---
+> 完成day10时，我又改变想法了，感觉把东西就放到每个小项目里写挺好的，干嘛搬到gitbook上那么麻烦啊
 
 ### 环境说明
 #### 开发环境
@@ -68,9 +71,16 @@ make run
 > （然而由于原本书里的安排，每一天的内容并不能算一个完整的模块，所以这里总结出来的可能比较抽象）
 - day01——二进制文件与Helloos
 - day02——Makefile与Helloos
-- day03——
-- day04——
-- day05——
-- day06——
-- day07——
-- day08——
+- day03——从Helloos到Harib（Initial Program Loader，binary image, bootpack/bootloader）——事实上这部分感觉最重要，但是在这一章里很多东西没有细讲
+- day04——C语言指针与画矩形
+- day05——利用sprint在VRAM中打字 与 画图形
+- day06——PIC初始化，与中断处理准备工作
+- day07——CPU捕获键盘与鼠标中断，并写出handler来处理
+- day08——decode鼠标IO事件（信息），在屏幕上实时画出来
+- day09——内存检查 与 简易策略的内存管理
+- day10——内存管理拆分函数到新文件 与 （鼠标）图层的定义与处理
+
+## Todo
+
+- [ ] 更换注释语言
+- [ ] 内存管理的研究
